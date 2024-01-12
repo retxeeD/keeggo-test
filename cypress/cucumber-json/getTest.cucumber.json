@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Get action by id",
+    "line": 1,
+    "id": "get-action-by-id",
+    "tags": [],
+    "uri": "getTest.feature",
+    "elements": [
+      {
+        "id": "get-action-by-id;make-a-get-request-by-id-successfully",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Make a get request by id successfully",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I make a request",
+            "result": {
+              "status": "passed",
+              "duration": 299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I show list.name value",
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Valid the statusCode",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
