@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Google search",
+    "line": 1,
+    "id": "google-search",
+    "tags": [],
+    "uri": "search.feature",
+    "elements": [
+      {
+        "id": "google-search;search-keeggo-on-google-successfully",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "search keeggo on google successfully",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open automationexercise login page",
+            "result": {
+              "status": "passed",
+              "duration": 1972000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I type login data",
+            "result": {
+              "status": "passed",
+              "duration": 9007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click in products",
+            "result": {
+              "status": "passed",
+              "duration": 6297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I search for a product in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I put the product in my cart",
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I valid the product in my cart",
+            "result": {
+              "status": "passed",
+              "duration": 2339000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
